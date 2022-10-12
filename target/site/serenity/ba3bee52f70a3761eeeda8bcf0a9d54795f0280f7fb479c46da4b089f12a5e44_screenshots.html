@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-10-2022 20:31</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-10-2022 21:50</span>
     <br style="clear:left"/>
 </div>
 
@@ -179,9 +179,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Search for a automation course
+                                <span class="failing-color">Search for a automation course
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -198,15 +198,69 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tasks.Search.performAs(Search.java:25)<br />stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:29)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.id: coursesearchbox to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>tasks.Search.performAs(Search.java :25)<br />stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java :29)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource6174051523989598970.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="a621a3f725c8aa79d01127daf2568b8e12aaa30df2b8204a3bb2d8937d631325.png" title=" Given than brandon wants to learn automation at the academy Choucair" width="1920"/>
-                <img src="a621a3f725c8aa79d01127daf2568b8e12aaa30df2b8204a3bb2d8937d631325.png" title=" Brandon open up" width="1920"/>
-                <img src="a621a3f725c8aa79d01127daf2568b8e12aaa30df2b8204a3bb2d8937d631325.png" title=" Brandon opens the Choucair academy page" width="1920"/>
-                <img src="a621a3f725c8aa79d01127daf2568b8e12aaa30df2b8204a3bb2d8937d631325.png" title=" Brandon open up (completed)" width="1920"/>
-                <img src="a621a3f725c8aa79d01127daf2568b8e12aaa30df2b8204a3bb2d8937d631325.png" title=" Given than brandon wants to learn automation at the academy Choucair (completed)" width="1920"/>
-                <img src="a621a3f725c8aa79d01127daf2568b8e12aaa30df2b8204a3bb2d8937d631325.png" title=" When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform" width="1920"/>
-                <img src="c01e87c9cfb78caf061944d1f2cf74e5e67f79ec85e5b57fb2ed905dcc45c5c6.png" title=" Then he finds the course called resources Recursos Automatizacion Bancolombia: <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="924a152774a735e950c82c9c66c43dc192f22b54327a32588b94e022fda4b71d.png" title=" Given than brandon wants to learn automation at the academy Choucair" width="1920"/>
+                <img src="924a152774a735e950c82c9c66c43dc192f22b54327a32588b94e022fda4b71d.png" title=" Brandon open up" width="1920"/>
+                <img src="924a152774a735e950c82c9c66c43dc192f22b54327a32588b94e022fda4b71d.png" title=" Brandon opens the Choucair academy page" width="1920"/>
+                <img src="924a152774a735e950c82c9c66c43dc192f22b54327a32588b94e022fda4b71d.png" title=" Brandon open up (completed)" width="1920"/>
+                <img src="bce15901e6b253d5f2f821ffb00527d7caa3b07375dc572f79cd8bef51b97325.png" title=" Brandon login" width="1920"/>
+                <img src="bce15901e6b253d5f2f821ffb00527d7caa3b07375dc572f79cd8bef51b97325.png" title=" Brandon clicks on button that shows us the form to login" width="1920"/>
+                <img src="e095bce13d4cceb164a77848c5979c154738a494ed26aa29bc2db50a195d8b6f.png" title=" Brandon enters '1075305026' into where do we write the user" width="1920"/>
+                <img src="0e4a7cb4c9f692bad1592f7c82f663043e00a0103b9e106f50baa29ecc18d32a.png" title=" Brandon enters 'Choucair2021*' into Where Do we write the password" width="1920"/>
+                <img src="462ba0cc3f38f9917363f719de2cfdb8553229dea7835f10c749d9ad279df573.png" title=" Brandon clicks on button to confirm login" width="1920"/>
+                <img src="462ba0cc3f38f9917363f719de2cfdb8553229dea7835f10c749d9ad279df573.png" title=" Brandon login (completed)" width="1920"/>
+                <img src="462ba0cc3f38f9917363f719de2cfdb8553229dea7835f10c749d9ad279df573.png" title=" Given than brandon wants to learn automation at the academy Choucair (completed)" width="1920"/>
+                <img src="803f36c57ab088a8d726e3bf990338ebfbb1b93260acdc4a2690230ae5a4888c.png" title=" When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform" width="1920"/>
+                <img src="803f36c57ab088a8d726e3bf990338ebfbb1b93260acdc4a2690230ae5a4888c.png" title=" Brandon search" width="1920"/>
+                <img src="803f36c57ab088a8d726e3bf990338ebfbb1b93260acdc4a2690230ae5a4888c.png" title=" Brandon clicks on Selecciona la Universidad choucair" width="1920"/>
+                <img src="803f36c57ab088a8d726e3bf990338ebfbb1b93260acdc4a2690230ae5a4888c.png" title=" Brandon enters 'Recursos Automatizacion Bancolombia' into Busca el Curso: <span class='failing-color'>FAILURE</span>" width="1920"/>
             </div>
         </div>
 
